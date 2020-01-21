@@ -1,13 +1,16 @@
 import React, { Fragment, Component, useState, useEffect } from "react";
 import { StyleSheet, Text, TextInput, View, Button } from "react-native";
-
+import MainTemplate from "../Templates/MainTemplate";
 
 class Main extends React.Component {
-  navigate = (page, params) => {
-    this.props.navigation.navigate(page, params);
-  };
   render() {
-    return (<View><Text>we here</Text></View>)
+    return (
+      <MainTemplate
+        navigate={(page, params) => {
+          this.props.navigation.navigate(page, params);
+        }}
+      ></MainTemplate>
+    );
   }
 }
 export default Main;
