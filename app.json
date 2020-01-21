@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HealthyHabits",
-    "slug": "HealthyHabits",
+    "name": "Streak",
+    "slug": "Streak",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": ["ios", "android", "web"],
