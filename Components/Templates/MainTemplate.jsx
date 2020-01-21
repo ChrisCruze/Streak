@@ -13,6 +13,7 @@ import {
   Title,
   Text,
   ListItem,
+  List,
   CheckBox,
   Content,
   Card,
@@ -34,12 +35,19 @@ const MainTemplate = ({ navigate }) => {
   return (
     <Fragment>
       <Container>
-        <Header>
-          <Text>WELCOME TO STREAK {uid}</Text>
-        </Header>
+        <Header />
         <Content>
-          <Body></Body>
-          <Text>holla</Text>
+          <List>
+            <ListItem>
+              <Text>Simon Mignolet</Text>
+            </ListItem>
+            <ListItem>
+              <Text>Nathaniel Clyne</Text>
+            </ListItem>
+            <ListItem>
+              <Text>Dejan Lovren</Text>
+            </ListItem>
+          </List>
         </Content>
       </Container>
     </Fragment>
